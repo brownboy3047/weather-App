@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #eeedec;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-wrapper {
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.container-wrapper h1 {
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #6c757d;
+}
+
+.form-field {
+    margin: 20px;
+    padding: 20px;
+    color: #6c757d;
+    text-align: center;
+}
+
+.form-field input {
+    padding: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.d-none {
+    display: none;
+}
+
+.weather-info {
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+    letter-spacing: 0.4em;
+    /* background-color: #fff; */
+}
+
+.weather-info p {
+    color: #6c757d;
+}
+
+.temp {
+    font-size: 30px;
+    color: #393b3b;
+}
